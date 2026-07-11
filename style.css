@@ -146,10 +146,11 @@ nav div ul li a {
 .pricing-section-heading{
     text-align: center;
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .pricing-section-heading p{
     padding:10px;
+    font-size: small;
 }
 .pricing-card-container{
     display:grid;
@@ -187,4 +188,98 @@ nav div ul li a {
     border-radius: 5px;
     margin-top: 20px;
   background-color: white;
+}
+
+/* Schedule Section  */
+
+    /* ==========================
+   EVENT SCHEDULE SECTION
+========================== */
+
+.schedule{
+    padding: 100px 8%;
+    background-color: #f8fafc;
+}
+
+.schedule h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+.schedule-subtitle{
+    text-align: center;
+    color: #64748b;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.schedule-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.schedule-card{
+    width: 320px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.schedule-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.schedule-card h3{
+    color: #2563eb;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.schedule-item{
+    border-bottom: 1px solid #e2e8f0;
+    padding: 15px 0;
+}
+
+.schedule-item:last-child{
+    border-bottom: none;
+}
+
+.schedule-item span{
+    display: block;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 5px;
+}
+
+.schedule-item p{
+    color: #64748b;
+    font-size: 15px;
+}
+
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+
+@media (max-width: 768px){
+
+    .schedule{
+        padding: 80px 5%;
+    }
+
+    .schedule h2{
+        font-size: 36px;
+    }
+
+    .schedule-card{
+        width: 100%;
+        max-width: 400px;
+    }
 }
