@@ -295,7 +295,7 @@ nav div ul li a {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
     max-width:1280px;
     margin: 0 auto;
 }
